@@ -10,6 +10,10 @@ A binary patching tool that applies specific byte pattern modifications to execu
 
 IDM Patcher is a Python-based tool that performs binary patching on executable files by searching for specific byte patterns and replacing them with modified sequences. The tool supports wildcard pattern matching and can operate in both dry-run and actual patching modes.
 
+### Supported Versions:
+- 6.42 Build 63
+- 6.42 Build 64
+
 ## 🚀 Usage
 
 ### Basic Syntax
