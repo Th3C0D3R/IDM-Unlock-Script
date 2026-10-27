@@ -184,7 +184,7 @@ def main():
             exe_path.write_bytes(data)
             print(f"Patched EXE: {exe_path}")
         else:
-            path = exe_path.with_suffix(f".P{len(PATCHES)}.exe")
+            path = exe_path.with_suffix(".xex")
             path.write_bytes(data)
             print(f"Patched EXE: {path}")
     else:
